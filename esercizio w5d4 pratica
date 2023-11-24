@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+  float a,areaq,areac,areat;
+  printf("inserisci il lato: \n");
+  scanf( "%f", &a);
+  areaq = a*a;
+  areac = 3.14*(a*a);
+  areat = sqrt(3)/4*(a*a);
+  printf( "l'area del quadrato è: %f\n", areaq);
+  printf( "l'area del cerchio è: %f\n", areac);
+  printf( "l'area del triangolo è: %f\n", areat);
+  
+  return 0;  
+}
